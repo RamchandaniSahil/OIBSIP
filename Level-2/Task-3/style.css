@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #192734;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    border-bottom: 2px solid blue;
+    padding: 0rem 2rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h1 {
+    padding: 1rem;
+}
+
+h1 span {
+    color: blue;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 3rem 26rem;
+    padding: 10px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100px;
+    height: 39px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #192734;
+    border: 2px solid blue;
+    color: white;
+    font-size: 1rem;
+}
+
+#tasks {
+    width: 100%;
+}
+
+#displayContent {
+    display: flex;
+    border: 2px solid #9d9d9d;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.content {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.editDelete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editDelete img {
+    width: auto;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.edit,
+.delete {
+    cursor: pointer;
+}
